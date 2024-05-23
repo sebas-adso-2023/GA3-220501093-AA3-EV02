@@ -19,6 +19,7 @@ switch (key) {
         let altura = parseInt(prompt("ingrese el valor de la altura"));
         let perimetro = (base * altura) / 2;
         console.log("el perimetro del triangulo es: ", perimetro);
+        
         break;
       default:
         break;
