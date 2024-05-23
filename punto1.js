@@ -20,7 +20,6 @@ switch (key) {
         let perimetro = (base * altura) / 2;
         console.log("el perimetro del triangulo es: ", perimetro);
         break;
-
       default:
         break;
     }
