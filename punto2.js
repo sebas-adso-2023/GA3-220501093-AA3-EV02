@@ -10,7 +10,7 @@ for (let i = 0; i < 10; i++) {
   }
 }
 for (let j = 0; j < 10; j++) {
-  //evaliuacion de personas adultas mayores
+  //evaliuacion de personas adultos mayores
   if (ages[j] >= 60) {
     admayor++;
   }

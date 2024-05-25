@@ -11,17 +11,17 @@ switch (key) {
         let lado1 = parseInt(prompt("ingrese el valor del lado 1"));
         let lado2 = parseInt(prompt("ingrese el valor del lado 2"));
         let lado3 = parseInt(prompt("ingrese el valor del lado 3"));
-        let area = lado1 + lado2 + lado3;
-        console.log("el perimetro del triangulo es: ", area);
+        let perimetro = lado1 + lado2 + lado3;
+        console.log("el perimetro del triangulo es: ", perimetro);
         break;
       case "area":
         let base = parseInt(prompt("ingrese el valor de la base"));
         let altura = parseInt(prompt("ingrese el valor de la altura"));
-        let perimetro = (base * altura) / 2;
-        console.log("el area del triangulo es: ", perimetro);
-        
+        let area = (base * altura) / 2;
+        console.log("el area del triangulo es: ", area);
+
         break;
-      default: 
+      default:
         console.log("opcion no valida");
         break;
     }
@@ -55,7 +55,7 @@ switch (key) {
     switch (cuadrado) {
       case "area":
         let lado = parseInt(prompt("ingrese el valor del lado"));
-        let area = lado * lado
+        let area = lado * lado;
         console.log("el area del cuadrado es: ", area);
         break;
       case "perimetro":
@@ -80,7 +80,7 @@ switch (key) {
         break;
       case "perimetro":
         let radio1 = parseInt(prompt("ingrese el valor del radio"));
-        let perimetro = 2 * Math.PI * (radio1*radio1);
+        let perimetro = 2 * Math.PI * (radio1 * radio1);
         console.log("el perimetro del circulo es: ", perimetro);
         break;
       default:
@@ -92,4 +92,3 @@ switch (key) {
     console.log("opcion no valida");
     break;
 }
-
